@@ -1,8 +1,8 @@
-var playlist = { bruno: "finesse" };
-function updatePlaylist(playlist, bruno, thatsWhatILike) {
-  return object.assign( {}, playlist, { [bruno]: thatsWhatILike });
+var playlist = { artistName: "songTitles" };
+function updatePlaylist(playlist, artistName, songTitles) {
+  return object.assign( {}, playlist, { [artistName]: songTitles });
 } 
-function removeFromPlaylist(playlist, bruno) {
-  delete playlist.bruno;
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
   return updatePlaylist;
 }
