@@ -1,1 +1,1 @@
-object.assign({ playlist: })
+var playlist = { bruno: "finesse"
